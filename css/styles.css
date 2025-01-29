@@ -2,9 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
-html{
+body{
   background-color: antiquewhite;
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 header{
@@ -50,6 +55,90 @@ main{
 .main1{
   display: inline-block;
   text-align: left;
-  width: 50;
+  width: 49%;
   vertical-align: top;
+}
+
+#main2{
+  margin-top: 30px;
+
+
+}
+
+.card{
+  display: inline-block;
+  width: 31%;
+  padding: 5px;
+}
+
+.card img{
+  width: 100%;
+}
+
+.big-image2{
+  background-image: url(../img/imggrande.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 340px;
+}
+
+footer{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  
+}
+footer p{
+  color: white;;
+}
+
+
+@media(max-width:768px){
+  body{
+    background-color: white;
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  .big-image, .big-image2{
+    height: 200px;
+  }
+
+  main{
+    text-align: center;
+  }
+
+  .card p{
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 570px){
+  body {
+    background-color: navy;
+  }
+
+  h1{
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  main{
+    width: 100%;
+  }
+
+  .main1{
+    display: block;
+    width: 100%;
+    padding: 5px;
+  }
+  
+  #main2{
+    width: 100%;
+    display: block;
+    
+  }
 }
