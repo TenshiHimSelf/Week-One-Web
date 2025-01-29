@@ -3,3 +3,53 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{
+  background-color: antiquewhite;
+}
+
+header{
+  background-color: black;
+  height: 50px;
+  text-align: center;
+}
+
+h1{
+  color:antiquewhite
+}
+
+nav{
+  height: 60px;
+  text-align: center;
+  padding: 20px;
+  background-color: bisque;
+}
+
+nav a{
+  color:black;
+  margin:0 15px;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+.big-image{
+  height: 340px;
+  background-image: url(../img/hero1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main{
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.main1{
+  display: inline-block;
+  text-align: left;
+  width: 50;
+  vertical-align: top;
+}
